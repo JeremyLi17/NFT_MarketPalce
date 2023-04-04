@@ -37,7 +37,7 @@ export const EthPrice = ({ price }) => {
     >
       <Image
         source={assets.eth}
-        resizeMethod="contain"
+        resizeMode="contain"
         style={{ width: 20, height: 20, marginRight: 2 }}
       />
       <Text
@@ -57,7 +57,7 @@ export const ImageCmp = ({ imgUrl, index }) => {
   return (
     <Image
       source={imgUrl}
-      resizeMethod="contain"
+      resizeMode="contain"
       style={{
         width: 48,
         height: 48,
